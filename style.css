@@ -1,0 +1,398 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(243, 236, 236);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* navigation bar styling */
+.nav{
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    display: flex;
+    max-width:80%;
+    height:fit-content;
+    justify-content:space-between;
+    align-items:center;
+    margin: auto;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    background-color: white;
+    z-index: 999;
+    box-shadow: 0 2px 3px rgb(99, 96, 96);
+}
+.navWrapper{
+    display: flex;
+    margin: 10px;
+    padding-right: 30px;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.dropdown{
+    display: none;
+}
+.navWrapper a{
+    justify-content: center;
+    align-items: center;
+    padding:10px 15px;
+    color: gray;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.4s;
+    margin-right: 30px;
+}
+.navWrapper a:hover{
+    background-color: rgb(240, 234, 234);
+}
+.contactLink a{
+    padding: 10px;
+    margin-right: 20px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.contactLink a:hover{
+    background-color: rgb(37, 36, 36);
+}
+.navImage{
+    max-width: 60px;
+    height: 60px;
+    object-fit:cover;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-top: 30%;
+}
+/* home page styling */
+.home{
+    
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.home h1{
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.home h3{
+    color: rgb(92, 86, 86);
+}
+.homeLinks{
+    margin-top: 20px;
+
+}
+.homeLinks a{
+    padding: 15px;
+    margin-right: 20px;
+    color: white;
+    
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.email{
+    background-color: black;
+}
+.resume{
+    background-color: rgb(205, 194, 194);
+}
+.homeLinks img{
+    
+    margin: 10px;
+}
+.email:hover{
+    background-color:  rgb(37, 36, 36);
+}
+.resume:hover{
+    background-color: rgb(191, 178, 178);  
+}
+
+
+/*about section styling*/
+.about{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.about img{
+    max-width: 30%;
+    max-height: 100%;
+    border-radius: 20px;
+}
+
+.aboutProfile{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 80%;
+    margin: 8px;
+    padding: 20px;
+    justify-content: space-around;
+    align-items:flex-start;
+    border-radius: 20px;
+    
+}
+.aboutProfile p{
+    color: rgb(116, 114, 114);
+}
+.aboutProfile footer{
+    color: rgb(116, 114, 114);
+
+}
+
+/* projects section styling */
+
+.projects{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.projectsList{
+    border-top: 2px solid  rgb(193, 189, 189);
+    padding: 20px;
+}
+.projectsList a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.projectsList p{
+    color: rgb(116, 114, 114);
+}
+.portionmaster, .diceGame, .modalWindow, .competetionResume{
+    padding: 10px;
+    border-left:2px double  rgb(193, 189, 189);
+}
+
+/* skills section styling */
+.skills{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.skills p{
+    color: rgb(116, 114, 114);
+}
+.skills h2{
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgb(193, 189, 189);
+}
+.coding{
+    display: flex;
+    margin: 5px;
+    max-width: fit-content;
+}
+.coding img{
+    max-width:10%;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.ach p{
+    line-height: 30px;
+}
+
+/* contact section styling */
+.contact{
+    max-width: 80%;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.call{
+    
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 100px;
+    
+}
+
+.contactLogos{
+    max-width: 30%;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    
+}
+.contactLogos a{
+    padding: 6px;
+    transition: 0.5s;
+}
+.contact h2{
+    border-bottom: 2px solid rgb(193, 189, 189);
+    padding-bottom: 10px;
+}
+.contactInfo p,a{
+    padding-bottom: 10px;
+    color: rgb(116, 114, 114);
+}
+
+.call:hover{
+    background-color:rgb(37, 36, 36) ;
+    text-decoration: none;
+    color: white;
+}
+.contactLogos a:hover{
+    color: black;
+}
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+}
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(2px);
+}
+.shown{
+    opacity: 1;
+    filter: blur(0);
+}
+
+
+/* optimizing for phones */
+
+@media only screen and (min-width:100px) and (max-width:450px){
+    .about{
+        display: block;
+        
+    }
+    .about img{
+        max-width: 100%;
+        margin: auto;
+    }
+    .aboutProfile{
+        max-width: 100%;
+    }
+    .homeLinks{
+        display: flex;
+        flex-direction: column;
+    }
+    .resume{
+        margin-top: 10px;
+    }
+    .contactLogos{
+        max-width: 50%;
+        display: flex;
+        flex-direction: row;
+        
+        justify-content: center;
+    }
+    .contactLink,.navWrapper{
+        display: none;
+    }
+    .dropdown{
+        display: block;
+        box-shadow: none;
+        margin-right:10% ;
+    }
+    .dropdown-item{
+        border-bottom: 2px solid rgb(251, 241, 241);
+    }
+    .contactInfo{
+        justify-content: center;
+        align-items: center;
+    }
+    .call{
+        margin: auto;
+    }
+    .coding{
+        flex-direction: column;
+        
+    }
+    .coding img{
+        max-width: 40%;
+        margin: auto;
+    }
+    .home h3{
+        text-align: center;
+    }
+}
+
+/* optimizing for tablets
+ */
+ @media only screen and (min-width:451px) and (max-width:1100px){
+    .about{
+        display: block;
+        
+    }
+    .about img{
+        max-width: 100%;
+        padding-left: 60px;
+        border-radius: 20px;
+    }
+    .aboutProfile{
+        max-width: 100%;
+    }
+    .homeLinks{
+        display: flex;
+        flex-direction: column;
+    }
+    .resume{
+        margin-top: 10px;
+    }
+    .contactLogos{
+        max-width: 50%;
+        display: flex;
+        flex-direction: row;
+        
+        justify-content: center;
+    }
+    .contactLink,.navWrapper{
+        display: none;
+    }
+    .dropdown{
+        display: block;
+        box-shadow: none;
+        margin-right:10% ;
+    }
+    .dropdown-item{
+        border-bottom: 2px solid rgb(251, 241, 241);
+    }
+    .contactInfo{
+        justify-content: center;
+        align-items: center;
+    }
+    .call{
+        margin: auto;
+    }
+    .coding{
+        flex-direction: column;
+        
+    }
+    .coding img{
+        max-width: 40%;
+        margin: auto;
+    }
+    .home h3{
+        text-align: center;
+    }
+}
