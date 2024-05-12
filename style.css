@@ -21,6 +21,7 @@ body{
     background-color: white;
     z-index: 999;
     box-shadow: 0 2px 3px rgb(99, 96, 96);
+    margin-top: 10px;
 }
 .navWrapper{
     display: flex;
@@ -175,7 +176,7 @@ img {
 .projectsList p{
     color: rgb(116, 114, 114);
 }
-.portionmaster, .diceGame, .modalWindow, .competetionResume{
+.portionmaster, .diceGame, .modalWindow, .competetionResume ,.numguess ,.first{
     padding: 10px;
     border-left:2px double  rgb(193, 189, 189);
 }
@@ -199,7 +200,9 @@ img {
 .coding{
     display: flex;
     margin: 5px;
-    max-width: fit-content;
+    align-items: center;
+    justify-content: center;
+
 }
 .coding img{
     max-width:10%;
@@ -236,10 +239,13 @@ img {
 }
 
 .contactLogos{
-    max-width: 30%;
-    margin: auto;
-    margin-top: 15px;
+    
+    
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     
 }
 .contactLogos a{
@@ -266,6 +272,7 @@ img {
 .contactInfo{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .hidden{
     opacity: 0;
